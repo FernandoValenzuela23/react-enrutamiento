@@ -28,6 +28,22 @@
   color: #61dafb;
 }
 
+.activo {
+  font-weight: bold;
+  color: darkred;
+  text-decoration: none;
+}
+
+.menu {
+  display: flex;
+  padding: 5px;
+}
+
+li {
+  list-style-type: none;
+  margin-right: 10px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
